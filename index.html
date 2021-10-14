@@ -5,96 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>rabi-ul-awal project</title>
 
-	<style>
-		
-	body{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-		
-	}
-
-	html{
-		font-size: 62.5%;
-	}
-
-
-	h1{
-		margin: 1rem 18%;
-		width:60%;
-		text-align: center;
-		text-transform: uppercase;
-		color: white;
-		background-color: #0007;
-		padding: 1rem;
-		box-shadow: 1px 2px 1rem black ;
-		text-shadow: 1px 2px 1rem black;
-	}
-
-	
-
-
-@media screen and (max-width:520px) {
-		h1{margin: 8px 6.5rem;}
-		
-	}
-.card{
-		
-	position: absolute;
-	
-		top:12%;
-		left:23%;
-		border-radius: 10px;
-		width: 20rem;
-		height: 30rem;
-	perspective: 160rem;
-	font-size: 3rem;
-		}
-
-	.front{
-		
-			
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background-color: #000;
-		background: linear-gradient(180deg,limegreen,#0f08);
-	
-		transform: rotateY(-180deg);
-		box-shadow: 2px 2px 10px #000;
-		transition: transform 3s ;
-	}
-
-.card:hover .front{
-		transform: rotateY(0deg);
-	}
-
-
-
-	.back{
-		position: absolute;
-		
-		width: 100%;
-		height: 100%;
-		background: linear-gradient(180deg,blue,skyblue);
-		box-shadow: 2px 2px 10px #000;
-		transition: all 3s;
-		backface-visibility: hidden;
-
-	}
-
-.card:hover .back{
-		transform: rotateY(180deg);
-	}
-	.image{width: 100%; height: 100%; background-size:cover ;}
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
- <h1>Rabani Masjid</h1>
+<body >
+	<img src="giphy.gif" width="100%" height="100vh" class="gif" alt="">
+ <h1>eid milad-un-nabi</h1>
 
 <div class="card">
 	<div class="front">
-		<video width="100%" height="100%" controls>
+		<video width="100%" height="100%" controls loop="true">
 			<source src="miladvideo.mp4" type="video/mp4">
 				<source src="video.ogg" type="video/ogg">
 					your mobile is not supporting this video please check another mobile
@@ -107,6 +26,6 @@
 	
 </div>
 
-
+<div class="copy">copyright &copy; Arslan Aslam </div>
 </body>
 </html>
