@@ -25,7 +25,8 @@
 
 	h1{
 		position: relative;
-		margin: 1rem 18%;
+	top: 2rem;
+	left: 7rem;
 		width:60%;
 		text-align: center;
 		text-transform: uppercase;
@@ -44,15 +45,11 @@
 	
 
 
-@media screen and (max-width:520px) {
-		h1{margin: 8px 6.5rem;}
-		
-	}
 .card{
 		
 	position: absolute;
 	
-		top:12%;
+		top:20%;
 		left:23%;
 		border-radius: 10px;
 		width: 20rem;
@@ -96,7 +93,7 @@
 
 .copy{font-size: .9rem; color: #fff;font-family: sans-serif;
 
-margin-top: 80%;font-weight: 900;
+margin: 40rem .5rem;font-weight: 900;
 }
 
 
